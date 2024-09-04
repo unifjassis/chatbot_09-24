@@ -1,0 +1,33 @@
+{"intents":
+[
+  { "tag": "saudacao",
+    "patterns":["ola", "oi"],
+    "responses": ["Oi","Ola"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","obrigado","tks"],
+    "responses": ["Ate breve","Falou"]
+  },
+  { "tag": "sobre",
+    "patterns":["sobre","sobre o pipe","informações sobre"],
+    "responses": ["O PIPE-FAPESP apoia a execução de pesquisa científica e/ou tecnológica em micro, pequenas e médias empresas no Estado de São Paulo.\n"]
+  },
+  { "tag": "objetivos",
+    "patterns":["qual o objetivo", "o que faz o pipe"],
+    "responses": ["Apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica, promover o desenvolvimento empresarial e aumentar a competitividade das pequenas empresas.\n",
+    "Incrementar a contribuição da pesquisa para o desenvolvimento econômico e social.\n",
+    "Induzir o aumento do investimento privado em pesquisa tecnológica.\n",
+    "Possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica.\n"]
+  },
+  {
+    "tag": "fases do programa",
+    "patterns":["etapa", "fases", "etapas do programa", "fases do programa"],
+    "responses": ["Fase 1: é destinada à verificação da viabilidade técnico-científica da proposta, (duração de até 9 meses e orçamento de até R$ 300.000, mais Reserva Técnica e Benefícios Complementares)\n Fase 2: destina-se à execução da pesquisa propriamente dita (duração de até 24 meses e orçamento de até R$ 1.500.000, mais Reserva Técnica e Benefícios Complementares)\nPIPE Invest: Aceleração da chegada ao mercado de Projetos da Fase 2, quando houver terceira parte interessada (duração de até 24 meses e orçamento de até R$ 1.500.000)\nFase 3: desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE."]
+  },
+  {
+    "tag": "requisitos",
+    "patterns":["requisitos", "requisito empresa aberta", "preciso ter empresa"],
+    "responses": ["Não. A FAPESP analisa propostas de empresas ainda não constituídas. Empresas startup ainda não constituídas legalmente são incentivadas a submeter. Nos casos em que a proposta for recomendada, o proponente deverá então abrir formalmente a empresa antes da concessão da proposta."]
+  }
+]
+}
